@@ -1,0 +1,5 @@
+Orders:
+https://dl0axdjpd2.execute-api.us-east-1.amazonaws.com/prod/orders
+
+Restaurant:
+https://dl0axdjpd2.execute-api.us-east-1.amazonaws.com/prod/restaurante
