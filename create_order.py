@@ -10,7 +10,7 @@ restaurants_table_name = os.environ['RESTAURANTS_TABLE']
 sns_topic_arn = os.environ['SNS_TOPIC_ARN']
 s3_bucket = os.environ['S3_BUCKET'].strip()
 
-orders_table = dynamodb.Table(table_name)
+table = dynamodb.Table(table_name)
 restaurants_table = dynamodb.Table(restaurants_table_name)
 
 def lambda_handler(event, context):
